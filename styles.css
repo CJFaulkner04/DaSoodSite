@@ -9,15 +9,20 @@ body{
 .title{
     text-align: center;
     font-size: 30px;
+    margin-top: 50px;
 }
 h1 a{
     color: #F0B9C2;
 }
 #navbar{
+    background-color: #F0B9C2;
     position: fixed;
     width: 100%;
     top: -50px;
     transition: top 0.3s;
+}
+#navbar h1 a{
+    color: white;
 }
 header{
     display: flex;
@@ -49,17 +54,26 @@ nav ul li{
     width: 100%;
 }
 nav ul li:hover{
-    color: #F0B9C2;
+    color: white;
 }
 
 section{
     display: flex;
-    background-color: #F0B9C2;
     justify-content: center;
-    padding: 50px;
-    margin: 50px;
-    border-radius: 50px;
 }
+
+.quote{
+    display: flex;
+    font-style: italic;
+    font-weight: 100;
+    background-color: #F0B9C2;
+    padding: 30px;
+    margin: 50px 0px;
+    justify-content: center;
+    border-radius: 50px;
+    width: 70%;
+}
+
 .hero{
     display: flex;
     justify-content: space-around;
@@ -72,7 +86,8 @@ section{
 }
 .hero-text h1{
     font-weight: 100;
-    width: 60%;
+    width: 50%;
+    margin: 50px 0px;
 }
 
 .column{
@@ -80,9 +95,31 @@ section{
     justify-content: center;
     width: 60%;
 }
-img{
+.hero img{
     margin: 50px;
     width: 300px;
     background-color:  #F0B9C2;
     border-radius: 100%;
+}
+
+.Activities{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 50px 0px;
+    
+}
+.Activity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 50px 0px;
+}
+.Activity img{
+    width: 20%;
+}
+
+.Activity img:hover{
 }
