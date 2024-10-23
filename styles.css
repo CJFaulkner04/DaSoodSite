@@ -116,10 +116,16 @@ section{
     font-size: 30px;
     width: 100%;
     margin: 50px 0px;
+    border-radius: 20px;
+    padding: 5px;
 }
 .Activity img{
     width: 20%;
 }
 
-.Activity img:hover{
+.Activity:hover{
+    padding: 2.5px;
+    background-color: #f0b9c2a5;
+    border: #F0B9C2;
+    border-style:outset;
 }
